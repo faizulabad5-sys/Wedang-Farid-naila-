@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- COVER -->
+<section id="cover">
+
+    <div class="overlay">
+
+        <h3>The Wedding Of</h3>
+
+        <h1>Farid & Naila</h1>
+
+        <p>Kepada Yth.</p>
+
+        <h2 id="guest">Tamu Undangan</h2>
+
+        <button onclick="bukaUndangan()">
+            Buka Undangan
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ISI WEBSITE -->
+<div id="content">
+
+           
+
+    <!-- VIDEO -->
+    <section class="video">
+
+        <video autoplay muted loop playsinline controls>
+
+            <source src="Undang.mp4.mov" type="video/mp4"
+
+        </video>
+
+    </section>
+
+    <!-- MEMPELAI -->
+    <section class="mempelai">
+
+        <h2>Mempelai</h2>
+
+        <img src="Farid.PNG" class="foto">
+
+        <h3>Farid</h3>
+
+        <p>Putra Bapak M.munif</p>
+
+        <br>
+
+        <img src="naila.PNG" class="foto">
+
+        <h3>Naila</h3>
+
+        <p>Putri bpk abdul halim</p>
+
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section class="countdown">
+
+        <h2>Menuju Hari Bahagia</h2>
+
+        <div id="timer"></div>
+
+    </section>
+
+    <!-- GALERI -->
+    <section class="gallery">
+
+        <h2>Galeri</h2>
+
+        <img src="Foto1.webp" class="galeri">
+
+        <img src="Foto2.webp" class="galeri">
+
+        <img src="Foto3.PNG" class="galeri">
+
+    </section>
+
+    <!-- LOKASI -->
+    <section class="lokasi">
+
+        <h2>Lokasi</h2>
+
+        <p>Gedung Serbaguna Jombang</p>
+        
+        <a href="https://maps.app.goo.gl/hrJ3jFUxmfMKabqr5?g_st=aw" target="_blank">
+        <button type="button">Buka google maps</button>
+        </a>
+
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp">
+
+        <h2>Konfirmasi Kehadiran</h2>
+       
+       <form>
+        <input type="text" placeholder="Nama" name="nama">
+
+        <select name="kehadiran">
+
+            <option>Hadir</option>
+
+            <option>Tidak Hadir</option>
+
+        </select>
+
+        <textarea placeholder="Ucapan" name="ucapan"></textarea>
+
+        <button type="submit">Kirim</button>
+        </form>
+
+    </section>
+
+    <!-- GIFT -->
+    <section class="gift">
+
+        <h2>Amplop Digital</h2>
+
+        <img src="Qris.JPG" class="qris">
+
+        <p>BCA : 1234567890</p>
+
+        <button>Salin Rekening</button>
+
+    </section>
+
+</div>
+
+<audio id="musik" loop>
+
+    <source src="musik.mp3" type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
